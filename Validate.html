@@ -1,0 +1,57 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css\Validate.css">
+    <title>Form Validation</title>
+    
+</head>
+<body>
+
+
+    <form>
+        <label>New task</label>
+        <input type="text" name="newTask" id="newTask" required>
+
+        <p id="error"></p>
+
+        <br>
+        <br>
+
+        <label>Text Description</label>
+        <textarea name="Description" id="Description" cols="30" rows="10"></textarea>
+
+        <br>
+        <br>
+
+        <label>Set Task Due Time</label>
+        <input type="date" name="date" id="date">
+
+        <br>
+        <br>
+
+        <lable>Set Task Due Time</lable>
+        <input type="time" name="time" id="time">
+
+
+        <input type="submit" value="Submit">
+
+
+
+
+
+    </form>
+  <ul id="task"></ul>
+
+
+
+
+
+
+
+
+
+    <script src="js\Validate.js"></script>
+  </body>
+</html>
