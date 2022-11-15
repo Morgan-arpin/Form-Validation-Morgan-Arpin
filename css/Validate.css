@@ -1,3 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
 p{
     display: none;
 }
+
+html, body {
+    font-family: 'Indie Flower', cursive;
+    background: url("../images/anna-sullivan-k7TxFz4JEQk-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: rgb(65, 10, 117);
+    text-align: center;
+}
+
+form {
+    border: 1px solid rgba(94, 27, 141, 1);
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    background-color: rgba(180, 126, 231, 0.5);
+}
+
+#submitButton {
+    background-color: blueviolet ;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid #321051;
+    border-radius: 10px;
+}
+
+form input{
+    padding: 10px;
+}
+
